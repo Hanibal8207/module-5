@@ -115,7 +115,11 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
+<<<<<<< HEAD
       homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "{{" + chosenCategoryShortName + "}}");
+=======
+      homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "{{randomCategoryShortName}}", "'" + chosenCategoryShortName + "'");
+>>>>>>> fd4a545577ef6c14003824677a1d7152b8b93aa8
 
 
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
