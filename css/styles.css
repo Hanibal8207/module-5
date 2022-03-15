@@ -1,19 +1,19 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #2e6d03;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color:#e2cc24;
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../images/sponsor logos/OIP.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -32,6 +32,18 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+}
+.navbar-brand h2{
+  nt-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: center;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -236,6 +248,27 @@ h3.menu-item-title {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
   }
+  #sp_logo_1 {
+  background: url('../images/sponsor logos/jumia foods_1.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_2 {
+  background: url('../images/sponsor logos/glovo_1.jpg') no-repeat;
+  position: relative;
+  height: 300px;
+  border-radius:50px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_3 {
+  background: url('../images/sponsor logos/uber_eats.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
+  }
 }
 
 /********** Medium devices only **********/
@@ -245,16 +278,56 @@ h3.menu-item-title {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
-    margin: 5px 5px 5px 0;
+    margin: 5px 15px 5px 0;
   }
   /* End Header */
-
+  #sp_logo_1 {
+  background: url('../images/sponsor logos/jumia foods_1.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_2 {
+  background: url('../images/sponsor logos/glovo_1.jpg') no-repeat;
+  position: relative;
+  height: 300px;
+  border-radius:50px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_3 {
+  background: url('../images/sponsor logos/uber_eats.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
+  }
   /* Home Page */
   .container .jumbotron {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
   }
-  /* End Home Page */
+  #sp_logo_1 {
+  background: url('../images/sponsor logos/jumia foods_1.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_2 {
+  background: url('../images/sponsor logos/glovo_1.jpg') no-repeat;
+  position: relative;
+  height: 300px;
+  border-radius:50px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_3 {
+  background: url('../images/sponsor logos/uber_eats.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
+  }/* End Home Page */
 }
 
 /********** Small devices only **********/
@@ -263,6 +336,27 @@ h3.menu-item-title {
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
+  }
+  #sp_logo_1 {
+  background: url('../images/sponsor logos/jumia foods_1.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_2 {
+  background: url('../images/sponsor logos/glovo_1.jpg') no-repeat;
+  position: relative;
+  height: 300px;
+  border-radius:50px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_3 {
+  background: url('../images/sponsor logos/uber_eats.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
   }
   /* End Home Page */
 }
@@ -321,6 +415,27 @@ h3.menu-item-title {
   }
   .panel-footer section hr {
     width: 50%;
+  }
+  #sp_logo_1 {
+  background: url('../images/sponsor logos/jumia foods_1.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_2 {
+  background: url('../images/sponsor logos/glovo_1.jpg') no-repeat;
+  position: relative;
+  height: 300px;
+  border-radius:50px;
+  /*margin: 1px 10px 1px 0;*/
+  }
+  #sp_logo_3 {
+  background: url('../images/sponsor logos/uber_eats.jpg') no-repeat;
+  position: relative;
+  border-radius: 50px;
+  height: 300px;
+  /*margin: 1px 10px 1px 0;*/
   }
   /* End Footer */
 
